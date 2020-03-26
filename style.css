@@ -1,0 +1,72 @@
+.navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 1 rem;
+    padding-top: 1.3rem;
+}
+
+#home-section{
+    background: url(../img/youth.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 3em;
+    font-size: 2.8rem;
+}
+
+#home-section p {
+    color: #fff;
+}
+
+#home-section button {
+    font-size: 1.5rem;
+}
+
+#home-section form label {
+    font-weight: bold;
+    font-size: medium;
+}
+
+#team-head {
+    padding-bottom: 2em;
+    background: #333;
+    color: #fff;
+}
+
+
+.row-hl {
+    background: #fff;
+    height: 500px;
+    width: fit-content;
+}
+
+#team {
+    padding: 0px;
+}
+
+.item-hl {
+    padding-right: 2em;
+    padding-left: 2em;
+    background: #333;
+    color: #fff;
+}
+
+#contact {
+    background: skyblue;
+    color: #fff;
+}
+
+#contactcontainer {
+    height: 16em;
+    border: 5px solid white;
+    border-radius: 2em;
+}
+
+#formContent {
+    padding-top: 2em;
+}
+
+@media (max-width: 768px) {
+    #team {
+        display: flex;
+        flex-direction: row;
+    }
+}
